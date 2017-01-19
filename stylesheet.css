@@ -36,6 +36,15 @@ h1,h2,h3,h4,h5,h6,p {
 	text-shadow: 0 0 5px black;
 }
 
+a:link {
+	color: #99ff33;
+	text-shadow: 0 0 10px black;
+}
+
+a:visited {
+	color: #99ff33;
+	text-shadow: 0 0 10px black;
+}
 
 ## HEADER ##
 
@@ -158,7 +167,7 @@ article {
 	background-repeat: repeat;
 	border: 4px solid #785836;
 	color: white;
-	text-align: justify;
+	text-align: justify-all;
 }
 
 .default h2 {
@@ -167,9 +176,11 @@ article {
 }
 
 .default p {
+	font-family: Segoe UI, Arial, Verdana;
+	font-size: .95em;
 	color: #ffface;
 	text-indent: 30px;
-	margin-left: 10px;
+	margin: 15px 0 0 10px;
 	text-shadow: 0 0 5px black;
 }
 
