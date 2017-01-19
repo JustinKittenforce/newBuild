@@ -46,9 +46,11 @@ header {
 
 header h1 {
 	text-align: left;
+	color: #ffface;
 	margin: 30px 0 0 0;
 	padding: 10px 0 0 20px;
 	background-color: #007c00;
+	background-image: url('_img/headerBG.png');
 	border-top: 1px solid black;
 	border-left: 1px solid black;
 	border-right: 1px solid black;
@@ -56,9 +58,11 @@ header h1 {
 
 header p {
 	text-align: left;
+	color: #ffface;
 	margin: 0;
 	padding: 10px 0 0 20px;
 	background-color: #007c00;
+	background-image: url('_img/headerBG.png');
 	border-left: 1px solid black;
 	border-right: 1px solid black;
 }
@@ -70,6 +74,7 @@ nav {
 nav ul {
 	list-style-type: none;
 	background-color: #007c00;
+	background-image: url('_img/linksBG.png');
 	padding: 15px 0 15px 0;
 	margin: 0;
 	border-left: 1px solid black;
@@ -83,11 +88,13 @@ nav ul li:first-child {
 
 nav ul li {
 	display: inline-block;
+	background-image: url('_img/links1.png');
 	margin-left: 10px;
 	padding: 5px;
 	background-color: #0099cc;
-	border: 1px solid #33ffff;
+	border: 1px solid #dadada;
 	color: white;
+	text-shadow: 0 0 20px #ffface;
 }
 
 
@@ -154,9 +161,16 @@ article {
 	text-align: justify;
 }
 
+.default h2 {
+	color: #99cc66;
+	text-shadow: 0 0 10px black;
+}
+
 .default p {
+	color: #ffface;
 	text-indent: 30px;
 	margin-left: 10px;
+	text-shadow: 0 0 5px black;
 }
 
 #quickLinks {
@@ -164,12 +178,22 @@ article {
 	margin: 30px 0 20px 0;
 	float: right;
 	background-color: #cc3300;
+	background-image: url('_img/rightFloat.png');
+	background-repeat: repeat;
 	padding: 15px;
 	border: 1px solid black;
 }
 
+#quickLinks h3 {
+	text-align: center;
+	color: #9ccb6c;
+	text-shadow: 0 0 10px black;
+}
+
 #quickLinks ol li {
 	text-align: justify;
+	color: #ffface;
+	text-shadow: 0 0 10px black;
 }
 
 #serversGlance {
@@ -177,12 +201,26 @@ article {
 	margin: 0 0 20px 0;
 	float: right;
 	background-color: #ffdd77;
+	background-image: url('_img/rightFloat.png');
+	background-repeat: repeat;
 	padding: 15px;
 	border: 1px solid black;
 }
 
+#serversGlance h3 {
+	text-align: center;
+	color: #9ccb6c;
+	text-shadow: 0 0 10px black;
+}
+
 #serversGlance ul li {
 	text-align: justify;
+	color: #ffface;
+	text-shadow: 0 0 10px black;
+}
+
+#twitter {
+	
 }
 
 
