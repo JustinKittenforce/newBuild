@@ -6,9 +6,14 @@ html {
 
 body {
 	width: 50%;
+	max-width: 50%;
+	min-width: 800px;
 	font-family: 'Wellfleet', cursive;
 	margin: 0 auto;
 	padding: 0;
+	background-image: url('_img/bg.png');
+	background-repeat: repeat;
+	background-attachment: scroll;
 	background-color: #fdfdfd;
 }
 
@@ -40,10 +45,10 @@ header {
 }
 
 header h1 {
-	text-align: center;
+	text-align: left;
 	margin: 30px 0 0 0;
-	padding: 0;
-	background-color: #cc00cc;
+	padding: 10px 0 0 20px;
+	background-color: #007c00;
 	border-top: 1px solid black;
 	border-left: 1px solid black;
 	border-right: 1px solid black;
@@ -52,8 +57,8 @@ header h1 {
 header p {
 	text-align: left;
 	margin: 0;
-	padding: 0 0 0 126px;
-	background-color: #cc00cc;
+	padding: 10px 0 0 20px;
+	background-color: #007c00;
 	border-left: 1px solid black;
 	border-right: 1px solid black;
 }
@@ -64,7 +69,7 @@ nav {
 
 nav ul {
 	list-style-type: none;
-	background-color: #cc00cc;
+	background-color: #007c00;
 	padding: 15px 0 15px 0;
 	margin: 0;
 	border-left: 1px solid black;
@@ -89,26 +94,41 @@ nav ul li {
 ## BODY ##
 
 #wrapper {
-	width: 100%;
-	height: 100%;
-	background-color: #cc00cc;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .noticeBanner {
 	width: 100%;
 	height: 20%;
+	font-family: Segoe UI, Verdana, Arial;
 }
 
 .noticeBanner .noticeContainer {
 	background-color: #ff4621;
 	text-align: center;
 	border: 2px solid black;
-	margin: 30px;
+	margin: 10px;
+	margin-bottom: -10px;
 }
 
 .noticeBanner .noticeContainer h3,h5 {
 	margin: 0;
 	padding: 0;
+}
+
+.noticeBanner .noticeContainer small {
+	font-size: .5em;
+}
+
+.noticeBanner .noticeContainer #broadcast {
+	text-align: left;
+	width: 50%;
+	margin: auto;
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 3px solid black;
 }
 
 #main {
@@ -122,13 +142,21 @@ nav ul li {
 
 article {
 	margin: 5% 5% 5% 0;
-	padding: 5%;
+	padding: 15px;
 }
 
 .default {
 	background-color: #0066cc;
+	background-image: url('_img/container.png');
+	background-repeat: repeat;
+	border: 4px solid #785836;
 	color: white;
 	text-align: justify;
+}
+
+.default p {
+	text-indent: 30px;
+	margin-left: 10px;
 }
 
 #quickLinks {
