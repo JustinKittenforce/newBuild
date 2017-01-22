@@ -27,6 +27,7 @@ h1,h2,h3,h4,h5,h6,p {
 	color: red;
 	text-decoration: underline;
 	text-shadow: 0 0 5px black;
+	text-align: justify-all;
 }
 
 .online {
@@ -34,6 +35,7 @@ h1,h2,h3,h4,h5,h6,p {
 	color: #00cc33;
 	text-decoration: underline;
 	text-shadow: 0 0 5px black;
+	text-align: justify-all;
 }
 
 a:link {
@@ -225,7 +227,7 @@ article {
 }
 
 #serversGlance ul li {
-	text-align: justify;
+	text-align: justify-all;
 	color: #ffface;
 	text-shadow: 0 0 10px black;
 }

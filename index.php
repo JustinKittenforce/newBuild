@@ -26,8 +26,6 @@
 		<div class="noticeBanner"> <!-- Under banner made in photoshop; will display high priority or maintenance notifications... similar to old status page -->
 			<div class="noticeContainer" hidden>
 				<h3>Notice! <br/> <small>I'll disappear magically at some point</small></h3>
-
-
 				<div id="broadcast">
 					<h4>Alert type:</h4>
 					<p>Critical</p>
@@ -37,10 +35,9 @@
 					<br/>
 					<h4>Description:</h4>
 					<p>Cat found the power cord amusing. Downtime < 5 minutes</p>
-				</div>
-
-			</div>
-		</div>
+				</div> <!-- end broadcast -->
+			</div><!-- end container -->
+		</div><!-- end banner -->
 
 		<section id="main"> <!-- will put main stuff here... clearly lol -->
 			<div id="mainContainer"> <!-- Newest post first! -->
@@ -48,7 +45,7 @@
 				<article class="default">
 					<h2>Progress Update - Jan. 18th, 2017 @ 2340</h2>
 						<p>I will from time to time post progress updates on whats new with the site or new servers that went up recently. I'll also put any issues here that may arise in a very noticeable alert banner</p>
-						<p>Need to contact? DM me on Twitter or send an email to: <a href="mailto:justin@kittenapprovedgaming.com" title="Email me! :D">justin@kittenapprovedgaming.com</a></p>
+						<p>Need to contact? DM me on <a href="https://www.twitter.com/JustinKitten4ce" target="_blank" title="Send Message on Twitter">Twitter</a> or send an email to: <a href="mailto:admin@kittenapprovedgaming.com" title="Email me! :D">admin@kittenapprovedgaming.com</a></p>
 					
 				</article>
 
@@ -75,17 +72,19 @@
 
 		<aside id="serversGlance"> <!-- Bringing it back! It will work this time, I am determined! -->
 			<h3>Here's a Server Glance</h3>
+			<!-- I cast PHP! :D -->
+			<?php require '_script/php/mc.php'; ?>
 				<ul>
-					<li>KITAN HCK - <span class="online">No issues to report</span></li>
-					<li>Rachel MC - <span class="online">No issues to report</span></li>
-					<li>Teamspeak 3 - <span class="online">No issues to report</span></li>
+					<li>KITAN HCK - <?php print $hck; ?></li>
+					<li>Rachel MC - <?php print $rii; ?></li>
+					<li>Teamspeak 3 - <?php print $ts; ?></li>
 				</ul>
 		</aside>
 
-		<aside id="twitter"> <!-- My twitter feed :D -->
-		<a href="https://twitter.com/justinkitten4ce" class="twitter-follow-button" data-size="large" data-lang="en" data-show-count="false">Follow @JustinKittenforce on Twitter</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		<aside id="twitter" hidden> <!-- My twitter feed :D -->
+			<a href="https://twitter.com/justinkitten4ce" class="twitter-follow-button" data-size="large" data-lang="en" data-show-count="false">Follow @JustinKittenforce on Twitter</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-		<a class="twitter-timeline" data-lang="en" data-width="600" data-height="700" data-theme="light" data-link-color="#cc66ff" href="https://twitter.com/JustinKitten4ce"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+			<a class="twitter-timeline" data-lang="en" data-width="600" data-height="700" data-theme="light" data-link-color="#cc66ff" href="https://twitter.com/JustinKitten4ce"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 		</aside>
 
 	<footer hidden> <!-- Self-explanatory... I hope, but probably just basic.. ultra basic. We will see -->
