@@ -48,6 +48,19 @@ a:visited {
 	text-shadow: 0 0 10px black;
 }
 
+nav ul li a:link {
+	color: #f7f7f7;
+}
+
+nav ul li a:visited {
+	color: #f7f7f7;
+}
+
+nav ul li a:hover {
+	font-size: 1.1em;
+	color: #99cc66;
+}
+
 ## HEADER ##
 
 header {

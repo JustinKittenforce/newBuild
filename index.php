@@ -4,6 +4,12 @@
 	<title>Who knows, but I hope it looks decent</title>
 	<link href="https://fonts.googleapis.com/css?family=Wellfleet" rel="stylesheet"/>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+
+	<script type="text/javascript">
+		function inDev() {
+			alert("Still being worked on. Come check later! :)");
+		}
+	</script>
 </head>
 <body>
 
@@ -15,7 +21,7 @@
 	<nav>
 		<ul>
 			<li>Home</li><!--
-			--><li>Forums</li><!--
+			--><li><a href="#" onclick="inDev()" title="Explore and join our forums!">Forums</a></li><!--
 			--><li>Downloads</li><!--
 			--><li>Status</li><!--
 			--><li>About</li><!--
