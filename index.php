@@ -43,7 +43,14 @@
 			<div id="mainContainer"> <!-- Newest post first! -->
 
 				<article class="default">
-					<h2>Progress Update - Jan. 18th, 2017 @ 2340</h2>
+					<h2>Progress Update - Jan. 22, 2017 @ 03:02</h2>
+						<p><strong>Server Glance is working!</strong> <em>(partially)</em></p>
+						<p>Made a super simple script that'll check if the servers are online; but only works partially. :(</p>
+						<p>I'll work on getting that fixed here soon! Now for other pages :3</p> 
+				</article>
+
+				<article class="default">
+					<h2>Progress Update - Jan. 18, 2017 @ 23:40</h2>
 						<p>I will from time to time post progress updates on whats new with the site or new servers that went up recently. I'll also put any issues here that may arise in a very noticeable alert banner</p>
 						<p>Need to contact? DM me on <a href="https://www.twitter.com/JustinKitten4ce" target="_blank" title="Send Message on Twitter">Twitter</a> or send an email to: <a href="mailto:admin@kittenapprovedgaming.com" title="Email me! :D">admin@kittenapprovedgaming.com</a></p>
 					
