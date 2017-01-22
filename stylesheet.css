@@ -195,7 +195,7 @@ article {
 	border: 1px solid black;
 }
 
-#quickLinks h3 {
+#quickLinks h3,h4 {
 	text-align: center;
 	color: #9ccb6c;
 	text-shadow: 0 0 10px black;

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Who knows, but I hope it looks decent</title>
+	<link href="https://fonts.googleapis.com/css?family=Wellfleet" rel="stylesheet"/>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+</head>
+<body>
+
+	<header>
+		<h1>Kitten Approved Gaming: Appears to have turned Minecrafty-like</h1>
+		<p>Let's be part of something fun?</p>
+	</header>
+
+	<nav>
+		<ul>
+			<li>Home</li><!--
+			--><li>Forums</li><!--
+			--><li>Downloads</li><!--
+			--><li>Status</li><!--
+			--><li>About</li><!--
+		--></ul>
+	</nav>
+
+	<div id="wrapper"> <!-- Let's grab everything into a box shall we? -->
+		<div class="noticeBanner"> <!-- Under banner made in photoshop; will display high priority or maintenance notifications... similar to old status page -->
+			<div class="noticeContainer" hidden>
+				<h3>Notice! <br/> <small>I'll disappear magically at some point</small></h3>
+
+
+				<div id="broadcast">
+					<h4>Alert type:</h4>
+					<p>Critical</p>
+					<br/>
+					<h4>Server:</h4>
+					<p>HCK</p>
+					<br/>
+					<h4>Description:</h4>
+					<p>Cat found the power cord amusing. Downtime < 5 minutes</p>
+				</div>
+
+			</div>
+		</div>
+
+		<section id="main"> <!-- will put main stuff here... clearly lol -->
+			<div id="mainContainer"> <!-- Newest post first! -->
+
+				<article class="default">
+					<h2>Progress Update - Jan. 18th, 2017 @ 2340</h2>
+						<p>I will from time to time post progress updates on whats new with the site or new servers that went up recently. I'll also put any issues here that may arise in a very noticeable alert banner</p>
+						<p>Need to contact? DM me on Twitter or send an email to: <a href="mailto:justin@kittenapprovedgaming.com" title="Email me! :D">justin@kittenapprovedgaming.com</a></p>
+					
+				</article>
+
+				<article class="default">
+					<h2>Introduction</h2>
+						<p>Hi, I'm Justin! *waves*</p>
+						<p>I'll start using this page as a front-end and eventually expand on to it. (here's to keeping my word!) </p> 
+						<p>I plan to make this into a little community of gamers for all types, but let's focus on minecraft for starters. If you enjoy minecraft, casually or hardcore, and like modpacks or vanilla; Join us, let's be part of something fun?</p>
+				</article>
+
+
+			</div>
+		</section>
+
+		<aside id="quickLinks"> <!-- In a little box off to the left side probably will put "Most important or funny stuff" not sure yet -->
+			<h3>Quick Links!</h3>
+				<h4>Nothing to show here yet</h4>
+
+				<!--<ol>
+					<li></li>
+				</ol> -->
+
+		</aside>
+
+		<aside id="serversGlance"> <!-- Bringing it back! It will work this time, I am determined! -->
+			<h3>Here's a Server Glance</h3>
+				<ul>
+					<li>KITAN HCK - <span class="online">No issues to report</span></li>
+					<li>Rachel MC - <span class="online">No issues to report</span></li>
+					<li>Teamspeak 3 - <span class="online">No issues to report</span></li>
+				</ul>
+		</aside>
+
+		<aside id="twitter"> <!-- My twitter feed :D -->
+		<a href="https://twitter.com/justinkitten4ce" class="twitter-follow-button" data-size="large" data-lang="en" data-show-count="false">Follow @JustinKittenforce on Twitter</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+		<a class="twitter-timeline" data-lang="en" data-width="600" data-height="700" data-theme="light" data-link-color="#cc66ff" href="https://twitter.com/JustinKitten4ce"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</aside>
+
+	<footer hidden> <!-- Self-explanatory... I hope, but probably just basic.. ultra basic. We will see -->
+		<small>&copy; 2008-2017 Kitten Approved Gaming Network - Justin</small>
+	</footer>
+
+	</div><!-- end wrapper -->
+
+
+
+
+
+
+</body>
+</html>
