@@ -1,0 +1,91 @@
+/* # Continued from stylesheet index */
+.wrapper {
+	height: 1200px;
+}
+
+#downloadPane {
+	text-align: justify-all;
+	background-color: #dadada;
+	padding-bottom: 10px;
+}
+
+#downloadPane h3 {
+	margin-top: 20px;
+}
+
+#downloadPane p {
+	font-family: Segoe UI, serif, "Times New Roman";
+	margin: 10px 10px 0 10px;
+}
+
+/* GENERAL */
+
+#downloadPane #general #generalHeader {
+	background-color: #99ff66;
+	border: 2px solid black;
+	border-top: 0px;
+}
+
+#downloadPane #general #generalHeader h3 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#downloadPane #general #generalHeader p {
+	margin: 0;
+	padding: 0;
+	font-family: 'Wellfleet', cursive;
+	text-align: center;
+}
+
+/* HCK */
+
+#downloadPane #hckDL #hckHeader {
+	background-color: #41ebad;
+	border: 2px solid black;
+}
+
+#downloadPane #hckDL #hckHeader h3 {
+	margin: 0;
+	text-align: center;
+}
+
+#downloadPane #hckDL #hckHeader p {
+	font-family: 'Wellfleet', cursive;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#downloadPane #hckDL {
+	padding-bottom: 20px;
+}
+
+#downloadPane #hckDL #hckInfo h3 {
+	text-decoration: underline;
+}
+
+/* RII MC */
+#downloadPane #riiDL {
+	padding-bottom: 20px;
+}
+#downloadPane #riiHeader {
+	text-align: center;
+	background-color: #9933ff;
+	border: 2px solid black;
+}
+
+#downloadPane #riiHeader h3 {
+	margin: 0;
+}
+
+#downloadPane #riiHeader p {
+	font-family: 'Wellfleet', cursive;
+	margin: 0;
+	padding: 0;
+}
+
+#downloadPane #riiHeader small {
+	font-size: .5em;
+}
