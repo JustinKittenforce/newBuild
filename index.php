@@ -7,7 +7,7 @@
 
 	<script type="text/javascript">
 		function inDev() {
-			alert("Still being worked on. Come check later! :)");
+			alert("Still being worked on. Come check later for a better version! \r\n\r\n No Judgement Allowed! :)");
 		}
 	</script>
 </head>
@@ -20,15 +20,15 @@
 
 	<nav>
 		<ul>
-			<li>Home</li><!--
-			--><li><a href="#" onclick="inDev()" title="Explore and join our forums!">Forums</a></li><!--
-			--><li>Downloads</li><!--
+			<li><a href="#" title="Seems like you're already here!&#013;&#013;That's a good thing! :D">Home</a></li><!--
+			--><li><a href="https://forums.kittenapprovedgaming.com/" onclick="inDev()" title="Explore and join our forums!">Forums</a></li><!--
+			--><li><a href="download/index.html" onclick="inDev()" title="Start here to join Minecraft with us!">Downloads</a></li><!--
 			--><li>Status</li><!--
 			--><li>About</li><!--
 		--></ul>
 	</nav>
 
-	<div id="wrapper"> <!-- Let's grab everything into a box shall we? -->
+	<div class="wrapper"> <!-- Let's grab everything into a box shall we? -->
 		<div class="noticeBanner"> <!-- Under banner made in photoshop; will display high priority or maintenance notifications... similar to old status page -->
 			<div class="noticeContainer" hidden>
 				<h3>Notice! <br/> <small>I'll disappear magically at some point</small></h3>
