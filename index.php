@@ -29,24 +29,22 @@
 	</nav>
 
 	<div class="wrapper"> <!-- Let's grab everything into a box shall we? -->
-		<div class="noticeBanner"> <!-- Under banner made in photoshop; will display high priority or maintenance notifications... similar to old status page -->
-			<div class="noticeContainer" hidden>
-				<h3>Notice! <br/> <small>I'll disappear magically at some point</small></h3>
-				<div id="broadcast">
-					<h4>Alert type:</h4>
-					<p>Critical</p>
-					<br/>
-					<h4>Server:</h4>
-					<p>HCK</p>
-					<br/>
-					<h4>Description:</h4>
-					<p>Cat found the power cord amusing. Downtime < 5 minutes</p>
-				</div> <!-- end broadcast -->
-			</div><!-- end container -->
-		</div><!-- end banner -->
 
 		<section id="main"> <!-- will put main stuff here... clearly lol -->
 			<div id="mainContainer"> <!-- Newest post first! -->
+				<article class="default">
+					<h2>Also presented by the <a href="https://forums.kittenapprovedgaming.com/" title="Socialize yourself :3" target="_blank">Forums!</a> - Feb. 2, 2017 @ 15:47</h2>
+						<p>So I went ahead and installed a forum we can use and it has some starter categories just to get us going.</p>
+						<p>I made it a couple weeks ago but was not liking how it turned out so I ended up re-doing it and hopefully it doesn't bug out as the last installation did.</p>
+						<p>You can view the forums here: <a href="https://forums.kittenapprovedgaming.com/" title="Socialize yourself :3" target="_blank">https://forums.kittenapprovedgaming.com/</a> or navigate from the navigation list of course lol</p>
+				</article>
+
+				<article class="default">
+					<h2>I present.... The <a href="download/index.html" title="Let's download stuffs!" target="_blank">Downloads Page</a>! - Jan. 23, 2017 @ 03:50</h2>
+						<p>I have crafted a <a href="download/index.html" title="Let's download stuffs!" target="_blank">Downloads</a> page! Woo :D</p>
+						<p>Nothing fancy or anything. Just basic information on how to access servers and any added stuff that maybe needed for connecting.</p>
+						<p>Yes, it is tacky. It's simple though, and might get the job done? lol</p>
+				</article>
 
 				<article class="default">
 					<h2>Progress Update - Jan. 22, 2017 @ 03:02</h2>
@@ -73,6 +71,23 @@
 			</div>
 		</section>
 
+		<div class="noticeBanner"> <!-- Under banner made in photoshop; will display high priority or maintenance notifications... similar to old status page -->
+			<div class="noticeContainer">
+				<h3>Sorry to bother, but this is important!</h3>
+				<p id="desc">Looks like one (or more) servers are reporting a problem!</p>
+					<div id="broadcast">
+						<h4><span class="crit">Alert type:</span></h4>
+						<p><span class="crit">Critical - Possibly OFFLINE!</span></p>
+						<br/>
+						<h4><span class="server">Server:</span></h4>
+						<p><span class="server">??unknown-TEST -- This server has failed a status check!</span></p>
+						<br/>
+						<h4><span class="description">Description:</span></h4>
+						<p><span class="description">Cat found the power cord amusing. Downtime < 5 minutes</span></p>
+					</div> <!-- end broadcast -->
+			</div><!-- end container -->
+		</div><!-- end banner -->
+
 		<aside id="quickLinks"> <!-- In a little box off to the left side probably will put "Most important or funny stuff" not sure yet -->
 			<h3>Quick Links!</h3>
 				<h4>Nothing to show here yet</h4>
@@ -94,7 +109,7 @@
 				</ul>
 		</aside>
 
-		<aside id="twitter" hidden> <!-- My twitter feed :D -->
+		<aside id="twitter"> <!-- My twitter feed :D -->
 			<a href="https://twitter.com/justinkitten4ce" class="twitter-follow-button" data-size="large" data-lang="en" data-show-count="false">Follow @JustinKittenforce on Twitter</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 			<a class="twitter-timeline" data-lang="en" data-width="600" data-height="700" data-theme="light" data-link-color="#cc66ff" href="https://twitter.com/JustinKitten4ce"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

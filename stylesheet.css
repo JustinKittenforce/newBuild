@@ -38,6 +38,21 @@ h1,h2,h3,h4,h5,h6,p {
 	text-align: justify-all;
 }
 
+.crit {
+	color: #fe3838;
+	text-shadow: 0 0 15px #ff3333;
+}
+
+.server {
+	color: #33FFFF;
+	text-shadow: 0 0 15px #30e0b9;
+}
+
+.description {
+	color: #dadada;
+	text-shadow: 0 0 15px white;
+}
+
 a:link {
 	color: #99ff33;
 	text-shadow: 0 0 10px black;
@@ -131,35 +146,50 @@ nav ul li {
 }
 
 .noticeBanner {
-	width: 100%;
+	float: right;
+	width: 40%;
 	height: 20%;
+	margin: 30px 0 20px 0;
 	font-family: Segoe UI, Verdana, Arial;
 }
 
 .noticeBanner .noticeContainer {
-	background-color: #ff4621;
+	background-color: #1d1d1d;
+	background-image: url('_img/notice.png');
 	text-align: center;
-	border: 2px solid black;
-	margin: 10px;
-	margin-bottom: -10px;
+	padding-bottom: 20px;
 }
 
-.noticeBanner .noticeContainer h3,h5 {
+.noticeBanner .noticeContainer h3 {
 	margin: 0;
-	padding: 0;
+	padding: 5px;
+	color: #ffcc66;
+	text-shadow: 0 0 15px #c7ae3b;
 }
 
-.noticeBanner .noticeContainer small {
-	font-size: .5em;
+.noticeBanner .noticeContainer #desc {
+	font-size: .9em;
+	text-align: center;
+	font-weight: bolder;
+	color: #ffcc66;
+	text-shadow: 0 0 15px #c7ae3b;
 }
 
 .noticeBanner .noticeContainer #broadcast {
 	text-align: left;
-	width: 50%;
-	margin: auto;
-	margin-bottom: 10px;
-	padding: 10px;
-	border: 3px solid black;
+	width: 80%;
+}
+
+.noticeBanner .noticeContainer #broadcast h4 {
+	color: #000000;
+	text-align: left;
+	font-weight: 900;
+	text-shadow: none;
+	padding: 5px;
+}
+
+.noticeBanner .noticeContainer #broadcast p {
+	padding-left: 10px;
 }
 
 #main {
