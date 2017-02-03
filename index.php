@@ -71,7 +71,7 @@
 			</div>
 		</section>
 
-		<div class="noticeBanner"> <!-- Under banner made in photoshop; will display high priority or maintenance notifications... similar to old status page -->
+		<div class="noticeBanner" hidden> <!-- Under banner made in photoshop; will display high priority or maintenance notifications... similar to old status page -->
 			<div class="noticeContainer">
 				<h3>Sorry to bother, but this is important!</h3>
 				<p id="desc">Looks like one (or more) servers are reporting a problem!</p>

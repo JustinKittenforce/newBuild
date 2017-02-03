@@ -64,6 +64,7 @@
 
 #downloadPane #hckDL #hckInfo h3 {
 	text-decoration: underline;
+	padding: 10px;
 }
 
 /* RII MC */
@@ -88,4 +89,10 @@
 
 #downloadPane #riiHeader small {
 	font-size: .5em;
+}
+
+#downloadPane #riiInfo h3 {
+	padding: 5px;
+	padding-left: 10px;
+	text-decoration: underline;
 }
