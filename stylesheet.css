@@ -136,6 +136,32 @@ nav ul li {
 	text-shadow: 0 0 20px #ffface;
 }
 
+.dropdown {
+	display: inline-block;
+}
+
+.dropdown:hover .dropdown-content {
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	width: 120px;
+	min-width: 120px;
+	margin-top: 2px;
+	padding: 10px;
+	border: 3px solid #785836;
+	color: #ffface;
+	background-color: #76b64c;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	display: block;
+	text-align: left;
+}
 
 ## BODY ##
 

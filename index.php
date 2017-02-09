@@ -24,6 +24,14 @@
 			--><li><a href="https://forums.kittenapprovedgaming.com/" onclick="inDev()" title="Explore and join our forums!">Forums</a></li><!--
 			--><li><a href="download/index.html" onclick="inDev()" title="Start here to join Minecraft with us!">Downloads</a></li><!--
 			--><li>Status</li><!--
+			--><li class="dropdown">
+					<a href="#">Social</a>
+					<div class="dropdown-content">
+						<a href="#">Twitter</a>
+						<a href="#">Tumblr</a>
+						<a href="#">Some other social media</a>
+					</div>
+				</li><!--
 			--><li>About</li><!--
 		--></ul>
 	</nav>
@@ -109,7 +117,7 @@
 				</ul>
 		</aside>
 
-		<aside id="twitter"> <!-- My twitter feed :D -->
+		<aside id="twitter" hidden> <!-- My twitter feed :D -->
 			<a href="https://twitter.com/justinkitten4ce" class="twitter-follow-button" data-size="large" data-lang="en" data-show-count="false">Follow @JustinKittenforce on Twitter</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 			<a class="twitter-timeline" data-lang="en" data-width="600" data-height="700" data-theme="light" data-link-color="#cc66ff" href="https://twitter.com/JustinKitten4ce"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
