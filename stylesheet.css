@@ -310,6 +310,8 @@ article {
 
 ## FOOTER ##
 
-footer {
+#footer {
+	position: relative;
 	clear: both;
+	color: #ffffff;
 }

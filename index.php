@@ -123,14 +123,14 @@
 			<a class="twitter-timeline" data-lang="en" data-width="600" data-height="700" data-theme="light" data-link-color="#cc66ff" href="https://twitter.com/JustinKitten4ce"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 		</aside>
 
-	<footer hidden> <!-- Self-explanatory... I hope, but probably just basic.. ultra basic. We will see -->
-		<small>&copy; 2008-2017 Kitten Approved Gaming Network - Justin</small>
-	</footer>
+	
 
 	</div><!-- end wrapper -->
 
 
-
+	<div id="footer"> <!-- Self-explanatory... I hope, but probably just basic.. ultra basic. We will see -->
+		<small>&copy; 2008-2017 Kitten Approved Gaming Network - Justin</small>
+	</footer>
 
 
 
