@@ -129,8 +129,8 @@
 
 
 	<div id="footer"> <!-- Self-explanatory... I hope, but probably just basic.. ultra basic. We will see -->
-		<small>&copy; 2008-2017 Kitten Approved Gaming Network - Justin</small>
-	</footer>
+		<p>&copy; 2008-2017 Kitten Approved Gaming Network - Justin</p>
+	</div>
 
 
 

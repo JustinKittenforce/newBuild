@@ -308,10 +308,15 @@ article {
 }
 
 
-## FOOTER ##
+/* ## FOOTER ## */
 
 #footer {
-	position: relative;
-	clear: both;
 	color: #ffffff;
+	clear: both;
+}
+
+#footer p {
+	color: #9ccb6c;
+	text-shadow: 0 0 10px black;
+	text-align: center;
 }
